@@ -22,14 +22,13 @@ struct CharacterRow: View {
             .clipShape(Circle())
 
             // Information
-            VStack (alignment: .leading) {
+            VStack (alignment: .leading, spacing: 2) {
                 // Character's name
                 Text(character.name)
                     .bold()
 
-                // Charater's species
-                Text(character.species)
-                    .foregroundColor(Color.secondary)
+                // Status + Species subtitle
+                CharacterSubtitleView(character: character)
             }
         }
         .padding(4)
@@ -38,12 +37,6 @@ struct CharacterRow: View {
 
 struct UserRow_Previews: PreviewProvider {
     static var previews: some View {
-        let mock = Character(
-            id: 1,
-            name: "Rick Sanchez",
-            image: URL(string: "https://rickandmortyapi.com/api/character/avatar/1.jpeg")!,
-            species: "Human"
-        )
-        CharacterRow(character: mock)
+        CharacterRow(character: Character.mock())
     }
 }
