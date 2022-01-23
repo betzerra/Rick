@@ -41,7 +41,7 @@ class Character: Codable, Identifiable {
 
     /// Link to the character's image.
     /// - Note: All images are 300x300px and most are medium shots or portraits since they are intended to be used as avatars.
-    var image: URL?
+    let image: URL
 
     /// List of episodes in which this character appeared.
     /// #TODO: Implement
@@ -53,8 +53,9 @@ class Character: Codable, Identifiable {
     /// Time at which the character was created in the database.
     var created: Date?
 
-    init(id: Int, name: String) {
+    init(id: Int, name: String, image: URL) {
         self.id = id
         self.name = name
+        self.image = image
     }
 }
