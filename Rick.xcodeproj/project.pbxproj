@@ -31,6 +31,8 @@
 		67F31113279DEB7900505141 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F31111279DEB7900505141 /* CharacterRow.swift */; };
 		67F31115279DF00E00505141 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F31114279DF00E00505141 /* LoaderView.swift */; };
 		67F31116279DF00E00505141 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F31114279DF00E00505141 /* LoaderView.swift */; };
+		67F31119279E080200505141 /* CharacterStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F31118279E080200505141 /* CharacterStatusView.swift */; };
+		67F3111A279E080200505141 /* CharacterStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F31118279E080200505141 /* CharacterStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,7 @@
 		67F3110D279DE86900505141 /* JSONDecoderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderHelper.swift; sourceTree = "<group>"; };
 		67F31111279DEB7900505141 /* CharacterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
 		67F31114279DF00E00505141 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		67F31118279E080200505141 /* CharacterStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,9 +189,10 @@
 		67F31117279E07BE00505141 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				67F31111279DEB7900505141 /* CharacterRow.swift */,
 				67F310C5279DCA7700505141 /* ContentView.swift */,
 				67F31114279DF00E00505141 /* LoaderView.swift */,
-				67F31111279DEB7900505141 /* CharacterRow.swift */,
+				67F31118279E080200505141 /* CharacterStatusView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -355,6 +359,7 @@
 				67F31108279DE4A000505141 /* CharacterViewModel.swift in Sources */,
 				67F31112279DEB7900505141 /* CharacterRow.swift in Sources */,
 				67F3110B279DE7DD00505141 /* CharacterResponse.swift in Sources */,
+				67F31119279E080200505141 /* CharacterStatusView.swift in Sources */,
 				67F310EC279DCA7700505141 /* RickApp.swift in Sources */,
 				67F31101279DCB3B00505141 /* APIClient.swift in Sources */,
 				67F3110E279DE86900505141 /* JSONDecoderHelper.swift in Sources */,
@@ -371,6 +376,7 @@
 				67F31109279DE4A000505141 /* CharacterViewModel.swift in Sources */,
 				67F31113279DEB7900505141 /* CharacterRow.swift in Sources */,
 				67F3110C279DE7DD00505141 /* CharacterResponse.swift in Sources */,
+				67F3111A279E080200505141 /* CharacterStatusView.swift in Sources */,
 				67F310ED279DCA7700505141 /* RickApp.swift in Sources */,
 				67F31102279DCB3B00505141 /* APIClient.swift in Sources */,
 				67F3110F279DE86900505141 /* JSONDecoderHelper.swift in Sources */,
