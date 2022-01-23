@@ -22,7 +22,7 @@ class Character: Codable, Identifiable {
     var status: String?
 
     /// The species of the character.
-    var species: String?
+    let species: String
 
     /// The type or subspecies of the character.
     var type: String?
@@ -53,9 +53,10 @@ class Character: Codable, Identifiable {
     /// Time at which the character was created in the database.
     var created: Date?
 
-    init(id: Int, name: String, image: URL) {
+    init(id: Int, name: String, image: URL, species: String) {
         self.id = id
         self.name = name
         self.image = image
+        self.species = species
     }
 }
