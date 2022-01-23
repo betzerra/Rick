@@ -118,13 +118,11 @@
 		67F310C3279DCA7700505141 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				67F310C4279DCA7700505141 /* RickApp.swift */,
-				67F310C5279DCA7700505141 /* ContentView.swift */,
-				67F31114279DF00E00505141 /* LoaderView.swift */,
-				67F31111279DEB7900505141 /* CharacterRow.swift */,
 				67F31100279DCB3B00505141 /* APIClient.swift */,
+				67F310C4279DCA7700505141 /* RickApp.swift */,
 				67F31110279DE8C800505141 /* Helpers */,
 				67F31106279DD68C00505141 /* Models */,
+				67F31117279E07BE00505141 /* Views */,
 				67F310C6279DCA7700505141 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -183,6 +181,16 @@
 				67F3110D279DE86900505141 /* JSONDecoderHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		67F31117279E07BE00505141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67F310C5279DCA7700505141 /* ContentView.swift */,
+				67F31114279DF00E00505141 /* LoaderView.swift */,
+				67F31111279DEB7900505141 /* CharacterRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
